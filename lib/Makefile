@@ -19,6 +19,7 @@ endif
 
 DIRS-$(CONFIG_OCF) += env_ocf
 DIRS-$(CONFIG_IDXD) += idxd
+DIRS-$(CONFIG_HISI) += hisi
 DIRS-$(CONFIG_VHOST) += vhost
 DIRS-$(CONFIG_VIRTIO) += virtio
 DIRS-$(CONFIG_VBDEV_COMPRESS) += reduce

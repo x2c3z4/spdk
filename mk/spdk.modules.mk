@@ -101,6 +101,9 @@ ACCEL_MODULES_LIST = accel_ioat ioat
 ifeq ($(CONFIG_IDXD),y)
 ACCEL_MODULES_LIST += accel_dsa accel_iaa idxd
 endif
+ifeq ($(CONFIG_HISI),y)
+ACCEL_MODULES_LIST += accel_hisi hisi
+endif
 ifeq ($(CONFIG_CRYPTO),y)
 ACCEL_MODULES_LIST += accel_dpdk_cryptodev
 endif

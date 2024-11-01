@@ -730,6 +730,8 @@ struct spdk_pci_driver *spdk_pci_vmd_get_driver(void);
  */
 struct spdk_pci_driver *spdk_pci_ioat_get_driver(void);
 
+struct spdk_pci_driver *spdk_pci_hisi_get_driver(void);
+
 /**
  * Get the IDXD PCI driver object.
  *

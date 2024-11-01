@@ -635,6 +635,12 @@ for i in "$@"; do
 		--without-idxd)
 			CONFIG[IDXD]=n
 			;;
+		--with-hisi)
+			CONFIG[HISI]=y
+			;;
+		--without-hisi)
+			CONFIG[HISI]=n
+			;;
 		--with-usdt)
 			CONFIG[USDT]=y
 			;;

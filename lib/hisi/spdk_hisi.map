@@ -1,0 +1,11 @@
+{
+	global:
+
+	# public functions
+	spdk_hisi_probe;
+	spdk_hisi_detach;
+	spdk_hisi_submit_copy;
+	spdk_hisi_process_events;
+
+	local: *;
+};

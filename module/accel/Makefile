@@ -11,6 +11,7 @@ DIRS-y = ioat
 DIRS-$(CONFIG_DPDK_COMPRESSDEV) += dpdk_compressdev
 DIRS-$(CONFIG_IDXD) += dsa
 DIRS-$(CONFIG_IDXD) += iaa
+DIRS-$(CONFIG_HISI) += hisi
 DIRS-$(CONFIG_CRYPTO) += dpdk_cryptodev
 ifeq ($(CONFIG_RDMA_PROV)|$(CONFIG_CRYPTO),mlx5_dv|y)
 DIRS-y += mlx5

@@ -120,6 +120,7 @@ extern "C" {
 #define PCI_ROOT_PORT_D_INTEL_ICX	0x347d
 
 
+#define PCI_DEVICE_ID_HUAWEI_HISIDMA 0xA122
 
 #ifdef __cplusplus
 }

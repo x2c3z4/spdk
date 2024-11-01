@@ -194,6 +194,8 @@ CONFIG_RAID5F=n
 # In this mode, SPDK fully controls the DSA device.
 CONFIG_IDXD=n
 
+CONFIG_HISI=n
+
 # Build with USDT support
 CONFIG_USDT=n
 

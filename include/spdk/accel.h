@@ -67,6 +67,8 @@ typedef void (*spdk_accel_fini_cb)(void *cb_arg);
  */
 int spdk_accel_initialize(void);
 
+void accel_hisi_enable_probe(void);
+
 /**
  * Close the acceleration framework.
  *
